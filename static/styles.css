@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(135deg, #f3f8ff, #e8f0ff); /* Light blue gradient */
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Textarea */
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    outline: none;
+    resize: none;
+    background: #f9f9f9; /* Light background for input */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+textarea:focus {
+    border-color: #ff4081;
+    box-shadow: 0px 4px 10px rgba(255, 64, 129, 0.3);
+}
+
+/* Stats Box */
+.stats {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    margin: 5px 0;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin: 10px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:nth-child(1) { /* Clear button */
+    background: #ff4d4d;
+}
+
+button:nth-child(1):hover {
+    background: #e60000;
+    box-shadow: 0px 4px 10px rgba(255, 77, 77, 0.3);
+}
+
+button:nth-child(2) { /* Copy button */
+    background: #007bff;
+}
+
+button:nth-child(2):hover {
+    background: #0056b3;
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+}
